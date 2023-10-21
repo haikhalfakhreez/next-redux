@@ -1,7 +1,9 @@
 # Next Redux
 
 <p align="center">
-  <img src="https://next-redux-ts.vercel.app/opengraph-image.png" alt="Next Redux OG Image">
+  <a href="https://next-redux-ts.vercel.app/login">
+    <img src="https://next-redux-ts.vercel.app/opengraph-image.png" alt="Next Redux OG Image">
+  </a>
 </p>
 
 <p align="center">
