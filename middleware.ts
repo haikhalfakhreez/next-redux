@@ -6,10 +6,9 @@ export default withAuth(
   async function middleware(req) {
     const token = await getToken({
       req,
+      // https://github.com/nextauthjs/next-auth/issues/5170#issuecomment-1222286879
       secret: process.env.NEXTAUTH_SECRET,
     })
-
-    console.log("MIDDLEWARE TOKEN = ", token)
 
     const isAuth = !!token
     const isAuthPage = req.nextUrl.pathname.startsWith("/login")
@@ -29,7 +28,6 @@ export default withAuth(
   {
     callbacks: {
       async authorized(pr) {
-        console.log("MIDDLEWARE authorized = ", pr)
         // This is a work-around for handling redirect on auth pages.
         // We return true here so that the middleware function above
         // is always called.
