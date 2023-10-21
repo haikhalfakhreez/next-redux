@@ -2,6 +2,8 @@
 
 This is a simple example of how to make your API fetch faster with Next.js, and store data for client-side manipulation with Redux. We're leveraging the power of Next.js with RSC to make all our API calls on the server side. This way, we can make our API calls faster and also make our app SEO friendly.
 
+[See Live](https://next-redux-ts.vercel.app)
+
 ## Features
 
 - [Next.js](https://nextjs.org/docs/app) with RSC

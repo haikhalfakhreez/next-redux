@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   title: "Next Redux",
   description:
     "A sample application to showcase to use of Next.js with App Router, and Redux as client side state management.",
+  metadataBase: new URL("https://next-redux-ts.vercel.app"),
 }
 
 export default function RootLayout({
